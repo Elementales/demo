@@ -1,4 +1,4 @@
-var ctx = document.getElementById('myChart');
+var ctx = document.getElementById('myChart2');
 
 d3.csv('MarcaAutos.csv')
 .then( (datos) => {
@@ -16,7 +16,7 @@ d3.csv('MarcaAutos.csv')
         return elemento.Cantidad
     })
 
-    var myChart = new Chart(ctx, {
+    var myChart2 = new Chart(ctx, {
         type: 'horizontalBar',
         data: {
             labels: datosmarca,
