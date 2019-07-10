@@ -21,12 +21,7 @@
      #heading { color: #CD5C5C; }
             </style>
     
-    <!-- CSS para dar tamaño al mapa -->
-    <style>
-        #myMap{
-            height: 600px;
-        }
-    </style>
+   
     
 </head>
     
@@ -57,13 +52,14 @@
           </ul>
         </nav>
       </div>
+      
       <div>
           <section>
         <h1 id="heading">WebScraping</h1><!-- titulo -->
         <h3>subtítulo</h3><!-- resumen -->
         <a class="button" href="#grafico">Ver Visualización</a><!-- boton -->
         
-            <div class="content-demo">
+            <div class="content">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center">Publicación de Avisos - Venta de Autos Usados (Años 2010 a 2018)</h2>
@@ -78,15 +74,21 @@
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
     <script src="graficat.js"></script>
-    </section>
-        </div>
-     
-     <div class="content-demo">
-        <div class="container">
-            <div class="intro">
+   
+    
+  
+
+        
+    </div>
+    
+ </div>
+              
+     <div class="content2">
+        <div class="container2">
+            <div class="intro2">
                 <h2 class="text-center">Publicación de Avisos - Venta de Autos Usados (por Marca)</h2>
             </div>
-            <div class="intro">
+            <div class="intro2">
                 <canvas id="myChart" width="400" height="200"></canvas>
             </div>
         </div>
@@ -98,25 +100,44 @@
     <script src="graficamm.js"></script>
              
      <div>
+     
+    </section>
     <section>
-        <h1 id="heading">Extracción de datos</h1><!-- titulo -->
+            <h1 id="heading">Extracción de datos</h1><!-- titulo -->
         <h3>subtítulo</h3><!-- resumen -->         
         <a class="button" href="#mapa">Ver Visualización</a><!-- boton -->
+        
+         <!-- CSS para dar tamaño al mapa -->
+    <style>
+        #myMap{
+            height: 600px;
+        }
+    </style>
+
+ <div class="content-demo">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Mapa</h2>
+            </div>
+            <div class="intro">
+                <div id="myMap"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- JS Requerido por Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin=""></script>
+    <!-- Script de prueba -->
+    <script src="mapamp.js"></script>
+      
+
     </section>
        
-      </div>
-
-        <h1><a href="#">título grafico</a></h1>
-      <h2><strong>subtitulo</strong></h2>
-  <script src="d3.min.js"></script>
-   <script type="text/javascript" src="mapamp.js">
-   </script>
-    </div>
-    
- </div>
-
-
-  <div>
+        <div>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
