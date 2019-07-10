@@ -1,6 +1,3 @@
-const MAP_ZOOM = 4
-const MAP_CENTER = [-33.4444, -70.6535]
-
 // Crear instancia del Mapa
 var map = L.map('myMap').setView(MAP_CENTER, MAP_ZOOM)
 
