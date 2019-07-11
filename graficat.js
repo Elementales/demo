@@ -1,6 +1,6 @@
 var ctx = document.getElementById('myChart1');
 
-d3.csv('./Usoautos.csv')
+d3.csv('UsoAutos.csv')
 .then( (datos) => {
     
     console.log(datos)
