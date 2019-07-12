@@ -1,4 +1,4 @@
-var ctx = document.getElementById('myChart');
+var ctx = document.getElementById('myChart1');
 
 d3.csv('UsoAutos.csv')
 .then( (datos) => {
@@ -16,7 +16,7 @@ d3.csv('UsoAutos.csv')
         return elemento.Ofertas
     })
 
-    var myChart = new Chart(ctx, {
+    var myChart1 = new Chart(ctx, {
         type: 'line',
         data: {
             labels: datosuso,
