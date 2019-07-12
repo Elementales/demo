@@ -1,4 +1,4 @@
-var ctx = document.getElementById('myChart');
+var ctx = document.getElementById('myChart2');
 
 d3.csv('MarcaAutos.csv')
 .then( (datos) => {
