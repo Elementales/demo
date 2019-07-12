@@ -16,7 +16,7 @@ d3.csv('MarcaAutos.csv')
         return elemento.Ofertas
     })
 
-    var myChart = new Chart(ctx, {
+    var myChart2 = new Chart(ctx, {
         type: 'horizontalBar',
         data: {
             labels: datosmarca,
