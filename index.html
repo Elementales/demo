@@ -37,40 +37,25 @@
         <style>
         #heading { color: #FFBD33; };
                     
-        </style>   
+      </style>   
       <div>
      
      <h1 id="heading">CURSO PROGRAMACIÓN Y VISUALIZACIÓN DE DATOS</h1>
      
       </div>
-           <div>                        
-      <nav> <!-- menu -->
-          <ul>
-            <li>
-              <a href="index.html" style= "color: #b2c5a9;"><b>Home</b></a>
-            </li>
-            <li>
-              <a href= "tablalinea.html" style= "color: #b2c5a9;"><b>Tabla de datos - Gráfico de Líneas</b></a>
-            </li>
-             <li>
-              <a href= "tablabarra.html" style= "color: #b2c5a9;"><b>Tabla de datos - Gráfico de Barras</b></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      
+         
       <div>
          
-                 <h1 id="heading">WebScraping</h1><!-- titulo -->
-   <section>       
-<div style="background-color:#8cdf08;"><h3 class="text-center" style = "color:#fa2c11;">Publicación de Avisos - Venta de Autos Usados (por Marca)</h3></div>     
+      <h2 id="heading">1. Web Scrapping: Extracción de información de página web</h2>
+  <section>       
+<div style="background-color:#FFBD33;"><h2 class="text-center" style = "color:#fa2c11;">Visualización: Gráfico de Líneas</h2></div>     
         <div class="content">
         <div class="container">
             <div class="intro">
-            
+            <h3 class="text-center" style = "color:#ecdedc;">Publicación de Avisos - Venta de Autos Usados (por Marca)</h3>
             </div>
             <div class="intro">
-            <canvas id="myChart1" width="400" height="200" style = 'background-color:#e4f7f2;'></canvas>
+            <canvas id="myChart1" width="350" height="200" style = 'background-color:#074434;'></canvas>
             </div>
         </div>
     </div>
@@ -82,15 +67,21 @@
              
 </div>
 
+<div>                        
+       <li>
+       <a href= "MarcaAutos.csv" style= "color: #b2c5a9;"><b>Tabla de datos (de csv de web scrapping) - Gráfico de Líneas</b></a>
+        </li>                    
+        </div>
+
   <div>           
-    <h3 style="background-color:#ff6d33;">Gráfico 2</h3><!-- resumen -->
+        <div style="background-color:#FFBD33;"><h2 class="text-center" style = "color:#fa2c11;">Visualización: Gráfico de Barras</h2></div>     
         <div class="content">
         <div class="container">
             <div class="intro">
-            <h2 class="text-center" style = "color:#fa2c11;">Publicación de Avisos - Venta de Autos Usados (Años 2010 a 2018)</h2> 
+            <h3 class="text-center" style = "color:#ecdedc;">Publicación de Avisos - Venta de Autos Usados (Años 2010 a 2018)</h3>
             </div>
             <div class="intro">
-            <canvas id="myChart2" width="400" height="200" style = 'background-color:#e4f7f2;'></canvas>
+            <canvas id="myChart2" width="350" height="200" style = 'background-color:#074434;'></canvas>
             </div>
         </div>
     </div>
@@ -101,17 +92,25 @@
     <script src="grafbar2.js"></script>
    
     </div>  
-  
+    <div> 
+            <li>
+            <a href= "UsoAutos.csv" style= "color: #b2c5a9;"><b>Tabla de datos (de csv de web scrapping)- Gráfico de Barras</b></a>
+          </li>
+           </div> 
+
+
+
    </section>
         
     <section>
-            <h1 id="heading">Extracción de datos</h1><!-- titulo -->
-            <h3 style="background-color:#ff6d33;">Mapa</h3><!-- resumen -->    
+            <h2 id="heading">2. Procesamiento de información de archivo Excel: XSLX Reader</h2>
+            <div style="background-color:#FFBD33;"><h2 class="text-center" style = "color:#fa2c11;">Visualización: Mapa</h2></div> 
+             
                 
          <!-- CSS para dar tamaño al mapa -->
    <style>
     #myMap{
-        height: 600px;
+        height: 500px;
     };
   
  
@@ -125,8 +124,18 @@
  <div class="content-demo">
         <div class="container">
             <div class="intro">
-                <h2 id="heading" class="text-left">Proyectos de Diplomado </h2>
+                <h2 class="text-center" style = "color:#ecdedc;">Proyectos de Diplomado</h2>
+                   
                </div>
+
+               <div>
+               
+                <li>
+                <a href= "mapa_dip.geojson" style= "color: #b2c5a9;"><b>Información procesada (Geojson)</b></a>
+                </li>
+                
+            </div> 
+
             <div class="row">
                 <div class="col-6">
                     <div id="myMap"></div>
