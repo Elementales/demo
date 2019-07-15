@@ -38,34 +38,40 @@
         <style>
         #heading { color: #FFBD33; };
                     
-        </style>   
+        </style>  
+     
+     
       <div>
      
-     <h1 id="heading">CURSO PROGRAMACIÓN Y VISUALIZACIÓN DE DATOS</h1>
+     <h1 id="heading">CURSO PROGRAMACIÃ“N Y VISUALIZACIÃ“N DE DATOS</h1>
      
       </div>
            <div>                        
       <nav> <!-- menu -->
           <ul>
             <li>
-              <a href="index.html">Home</a>
+              <a href="index.html" style= "color: #b2c5a9;"><b>Home</b></a>
             </li>
             <li>
-              <a href= "visualiza.html">Visualización de Datos</a>
+              <a href= "tablalinea.html" style= "color: #b2c5a9;"><b>Tabla de datos - GrÃ¡fico de LÃ­neas</b></a>
+            </li>
+             <li>
+              <a href= "tablabarra.html" style= "color: #b2c5a9;"><b>Tabla de datos - GrÃ¡fico de Barras</b></a>
             </li>
           </ul>
         </nav>
       </div>
       
       <div>
-          <section>
+         
                  <h1 id="heading">WebScraping</h1><!-- titulo -->
-<div>           
-    <h3 style="background-color:#ff6d33;">Gráfico 1</h3><!-- resumen -->
+  <section id="graf">        
+<div>
+    <h3 style="background-color:#ff6d33;">GrÃ¡fico 1</h3><!-- resumen -->      
         <div class="content">
         <div class="container">
             <div class="intro">
-            <h2 class="text-center" style = "color:#fa2c11;">Publicación de Avisos - Venta de Autos Usados (Años 2010 a 2018)</h2> 
+            <h2 class="text-center" style = "color:#fa2c11;">PublicaciÃ³n de Avisos - Venta de Autos Usados (por Marca)</h2>
             </div>
             <div class="intro">
             <canvas id="myChart1" width="400" height="200" style = 'background-color:#e4f7f2;'></canvas>
@@ -76,17 +82,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
-    <script src="graficat.js"></script>
-   
-    </div>  
-    </div>
+    <script src="grafln1.js"></script>
+             
+</div>
 
-<div>
-    <h3 style="background-color:#ff6d33;">Gráfico 2</h3><!-- resumen -->      
+  <div>           
+    <h3 style="background-color:#ff6d33;">GrÃ¡fico 2</h3><!-- resumen -->
         <div class="content">
         <div class="container">
             <div class="intro">
-            <h2 class="text-center" style = "color:#fa2c11;">Publicación de Avisos - Venta de Autos Usados (por Marca)</h2>
+            <h2 class="text-center" style = "color:#fa2c11;">PublicaciÃ³n de Avisos - Venta de Autos Usados (AÃ±os 2010 a 2018)</h2> 
             </div>
             <div class="intro">
             <canvas id="myChart2" width="400" height="200" style = 'background-color:#e4f7f2;'></canvas>
@@ -97,18 +102,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
-    <script src="graficamm.js"></script>
-             
-</div>
-
-<div>
-     
-    </section>
-    <section>
-            <h1 id="heading">Extracción de datos</h1><!-- titulo -->
+    <script src="grafbar2.js"></script>
+   
+    </div>  
+   </section>
+        
+    <section id="mapas">
+            <h1 id="heading">ExtracciÃ³n de datos</h1><!-- titulo -->
             <h3 style="background-color:#ff6d33;">Mapa</h3><!-- resumen -->    
                 
-         <!-- CSS para dar tamaño al mapa -->
+         <!-- CSS para dar tamaÃ±o al mapa -->
     <style>
         #myMap{
             height: 600px;
@@ -134,23 +137,9 @@
         crossorigin=""></script>
     <!-- Script de prueba -->
     <script src="mapamp.js"></script>
-      
-
-    </section>
-       
-        <div>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <!-- JS Requerido por Leaflet -->
-    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
-        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
-        crossorigin=""></script>
-    <!-- Script de prueba -->
-    <script src="mapamp.js"></script>
-    </div>
-  
-   
+     </section>
+         
+</div>  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -160,7 +149,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
-
-    <p style="color:#e4f7f2";>Patricia Contador</p>
+       
   </body>
 </html>
